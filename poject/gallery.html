@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея</title>
+    <style>
+        .box > div{
+            background-color:red;
+            width: calc(100% / 3 - 20px);
+            height: 100px;
+            margin: 10px;
+            background-size: cover;
+            
+        }
+
+        .orange {
+            background-color: orange;
+            width: 200px;
+        }
+
+        .box {
+            display: flex;
+            max-width: 900px;
+            margin: auto;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .box > .empty {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+            <div class="orange" style='background-image: url(галактус.jpg);'></div>
+            <div style='background-image: url(bd98adf70-1.jpg);'></div>
+            <div style='background-image: url(maxresdefault.jpg);'></div>
+            <div style='background-image: url(re.jpg);'></div>
+            <div class='empty'></div>
+            <div style='background-image: url(ooo.jpg);'></div>
+            <div style='background-image: url(aaaaa.jpg);'></div>
+            <div style='background-image: url(jjjj.jpg);'></div>
+            <div style='background-image: url(vvvvvv.jpg);'></div>
+    </div>
+</body>
+</html>
